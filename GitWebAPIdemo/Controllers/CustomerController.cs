@@ -14,7 +14,7 @@ namespace GitWebAPIdemo.Controllers
         [HttpGet]
         public IEnumerable<string> getdata()
         {
-            return new string[]{"Data1","Data2" };
+            return new string[]{"Data1","Data2","Data3","Data4" };
         }
     }
 }
